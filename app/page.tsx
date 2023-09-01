@@ -13,7 +13,7 @@ export default function Home() {
       <header className="bg-gradient-to-r to-blue-700 p-4 text-center flex items-center justify-between">
         <div className="flex items-center text-center">
           <Image
-            src="/logo.png"
+            src="/logo2.png"
             alt="knowlihub"
             width={50}
             height={50}

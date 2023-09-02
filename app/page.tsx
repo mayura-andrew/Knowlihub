@@ -20,7 +20,9 @@ export default function Home() {
         </div>
       </header>
       <div className="text-3xl text-white text-center mt-2 font-extralight">Your ultimate destination for free education🎓</div>
-      <div className="text-4xl text-center align-middle mt-2  font-bold">Coming Soon...🚀</div>
+      <div className="text-4xl text-center mt-2 font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-pink">
+  Coming Soon...🚀
+</div>
       <main className="max-w-4xl mx-auto p-4 text-center mt-2 font-mono">
         <p className="my-4 font-mono">
           Welcome to our community-driven learning platform, where you can access the best online resources for free and without difficulty.

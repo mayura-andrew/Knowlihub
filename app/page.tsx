@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from 'react';
 import NextHead from 'next/head';
 import Image from 'next/image';
@@ -7,38 +7,49 @@ export default function Home() {
   return (
     <>
       <NextHead>
-        <title>Your ultimate destination for free education</title>
+        <title>Your Education Hub</title>
+        <meta
+          name="description"
+          content="Access free educational resources. Coming soon: Web Platform, Mobile App, and Browser Extension."
+        />
       </NextHead>
-      <header className="bg-gradient-to-r to-blue-700 p-1 text-center flex items-center justify-between align-middle">
-        <div className="flex justify-center"> {/* Center the image horizontally */}
+
+      {/* Header Section */}
+      <header className="bg-blue-400 p-4 text-center">
+        <div className="mx-auto w-24 h-24">
           <Image
             src="/logo2.png"
             alt="knowlihub"
-            width={100}
-            height={80}
+            width={96}
+            height={96}
           />
         </div>
+        <h1 className="text-4xl text-white mt-4 font-bold">
+          Your Education Hub 🎓
+        </h1>
+        <h2 className="text-2xl text-gray-800 mt-2">
+          Coming Soon: Web Platform, Mobile App, and Browser Extension 🚀
+        </h2>
       </header>
-      <div className="text-3xl text-white text-center mt-2 font-extralight">Your ultimate destination for free education🎓</div>
-      <div className="text-4xl text-center mt-2 font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-pink">
-  Coming Soon...🚀
-</div>
-      <main className="max-w-4xl mx-auto p-4 text-center mt-2 font-mono">
-        <p className="my-4 font-mono">
-          Welcome to our community-driven learning platform, where you can access the best online resources for free and without difficulty.
+
+      {/* Main Content Section */}
+      <main className="max-w-4xl mx-auto p-4 text-center mt-8">
+        <p className="text-lg text-gray-700">
+          Welcome to our platform, where you can access a wealth of educational resources for free.
         </p>
-        <p className="font-mono"> {/* Apply a different font family */}
-          Our vision is to provide better online resources for learners that are easily accessible and free of charge. We believe that everyone should have access to quality education, regardless of their background or financial situation.
+        <p className="text-lg text-gray-700 mt-4">
+          Our mission is to provide high-quality online resources accessible to all, without cost barriers.
         </p>
       </main>
 
+      {/* Styles */}
       <style jsx>{`
-        /* Define your custom font-family here */
+        /* Define your custom font-family here if needed */
         .custom-font {
           font-family: 'Roboto', sans-serif;
         }
 
-        /* Apply different font to the specific element */
+        /* Apply different font to specific elements if desired */
         .font-serif {
           font-family: 'Font1', serif; /* Replace 'Font1' with your chosen serif font */
         }

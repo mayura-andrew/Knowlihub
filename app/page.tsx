@@ -30,7 +30,7 @@ export default function Home() {
           Your One Stop Education Hub 🎓
         </h1>
         <h2 className="text-2xl text-white mt-2">
-        A community-driven learning resource sharing platform that aims to make high-quality educational materials more accessible to everyone. With KnowliHub, we're fostering a collaborative environment where learners can discover, save, and share valuable resources with ease.        </h2>
+        A community-driven learning resource sharing platform that aims to make high-quality educational materials more accessible to everyone. With KnowliHub, we are fostering a collaborative environment where learners can discover, save, and share valuable resources with ease.        </h2>
       </header>
 
       {/* Main Content Section */}

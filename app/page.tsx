@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <>
       <NextHead>
-        <title>Your Education Hub</title>
+        <title>KnowliHub</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
         <meta
           name="description"
           content="Access free educational resources. Coming soon: Web Platform, Mobile App, and Browser Extension."
@@ -15,7 +17,7 @@ export default function Home() {
       </NextHead>
 
       {/* Header Section */}
-      <header className="bg-blue-400 p-4 text-center">
+      <header className="bg-black p-4 text-center">
         <div className="mx-auto w-24 h-24">
           <Image
             src="/logo2.png"
@@ -25,21 +27,21 @@ export default function Home() {
           />
         </div>
         <h1 className="text-4xl text-white mt-4 font-bold">
-          Your Education Hub 🎓
+          Your One Stop Education Hub 🎓
         </h1>
-        <h2 className="text-2xl text-gray-800 mt-2">
-          Coming Soon: Web Platform, Mobile App, and Browser Extension 🚀
-        </h2>
+        <h2 className="text-2xl text-white mt-2">
+        A community-driven learning resource sharing platform that aims to make high-quality educational materials more accessible to everyone. With KnowliHub, we're fostering a collaborative environment where learners can discover, save, and share valuable resources with ease.        </h2>
       </header>
 
       {/* Main Content Section */}
       <main className="max-w-4xl mx-auto p-4 text-center mt-8">
-        <p className="text-lg text-gray-700">
-          Welcome to our platform, where you can access a wealth of educational resources for free.
+        <p className="text-lg text-gray-800">
+          Under construction... 
         </p>
-        <p className="text-lg text-gray-700 mt-4">
-          Our mission is to provide high-quality online resources accessible to all, without cost barriers.
+        <p className="text-lg text-gray-800">
+          Coming soon ... 🚀
         </p>
+
       </main>
 
       {/* Styles */}

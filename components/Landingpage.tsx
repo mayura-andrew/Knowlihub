@@ -6,10 +6,10 @@ import Image from 'next/image';
 import Logo from '../public/logo2.png'
 
 const socialMediaLinks = [
-  { name: 'Website', url: 'https://mayuraandrew.tech/whoami', icon: '../public/images/web.svg' },
-  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mayura-alahakoon-827381201/', icon: '../public/images/linkedin.svg' },
-  { name: 'GitHub', url: 'https://github.com/mayura-andrew', icon: '../public/images/github.svg' },
-  { name: 'StackOverFlow', url: 'https://stackoverflow.com/users/18835623/mayura-andrew', icon: '../public/images/stackoverflow.svg'}
+  { name: 'Website', url: 'https://mayuraandrew.tech/whoami', icon: '../images/web.svg' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mayura-alahakoon-827381201/', icon: '../images/linkedin.svg' },
+  { name: 'GitHub', url: 'https://github.com/mayura-andrew', icon: '../images/github.svg' },
+  { name: 'StackOverFlow', url: 'https://stackoverflow.com/users/18835623/mayura-andrew', icon: '../images/stackoverflow.svg'}
   // Add more social media links as needed
 ];
 const LandingPage = () => {

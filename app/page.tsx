@@ -2,11 +2,14 @@
 import React from 'react';
 import NextHead from 'next/head';
 import Image from 'next/image';
+import LandingPage from '@/components/Landingpage';
+import Header from '@/components/Header'
 
 export default function Home() {
   return (
     <>
       <NextHead>
+<<<<<<< HEAD
         <title>KnowliHub</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
@@ -56,6 +59,13 @@ export default function Home() {
           font-family: 'Font1', serif; /* Replace 'Font1' with your chosen serif font */
         }
       `}</style>
+=======
+        <title>Your ultimate destination for free education</title>
+        <meta property="og:title" content="Mayura Andrew" />
+        <meta property="og:image" content="../public/logo.png" />
+      </NextHead>
+      <LandingPage />
+>>>>>>> c218689 (new landing)
     </>
   );
 }

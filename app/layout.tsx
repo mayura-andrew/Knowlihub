@@ -6,7 +6,7 @@ import Home from './page'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'knowlihub',
+  title: 'Knowlihub',
   description: 'Your ultimate destination for free education',
 }
 

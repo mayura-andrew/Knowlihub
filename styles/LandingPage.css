@@ -1,0 +1,88 @@
+/* src/styles/LandingPage.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.landing-container {
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+header {
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-links img {
+  width: 20px;
+  height: 20px;
+  margin: 3px 30px 0 30px;
+  margin-bottom: 10px; /* Adjust margins for spacing */
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social-links {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 2rem; /* Adjust the font size for smaller screens */
+    margin-bottom: 8px; /* Adjust the bottom margin for smaller screens */
+  }
+
+  p {
+    font-size: 1rem; /* Adjust the font size for smaller screens */
+    margin-bottom: 16px; /* Adjust the bottom margin for smaller screens */
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}

@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <>
       <NextHead>
-        <title>Your ultimate destination for free education</title>
         <meta property="og:title" content="Mayura Andrew" />
         <meta property="og:image" content="../public/logo.png" />
       </NextHead>

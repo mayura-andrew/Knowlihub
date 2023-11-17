@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Knowlihub',
   description: 'Your ultimate destination for free education',
+  
 }
 
 export default function RootLayout({

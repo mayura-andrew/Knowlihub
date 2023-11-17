@@ -8,7 +8,7 @@ import Logo from '../public/logo2.png'
 const socialMediaLinks = [
   { name: 'Website', url: 'https://mayuraandrew.tech/whoami', icon: '../public/web.svg' },
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mayura-alahakoon-827381201/', icon: 'https://raw.githubusercontent.com/mayura-andrew/Knowlihub/2156f0c5103326b5fa3b966399fe5aa296df62ff/public/images/linkedin.svg' },
-  { name: 'GitHub', url: 'https://github.com/mayura-andrew', icon: 'https://raw.githubusercontent.com/mayura-andrew/Knowlihub/2156f0c5103326b5fa3b966399fe5aa296df62ff/public/images/github.svg' },
+  { name: 'GitHub', url: 'https://github.com/mayura-andrew', icon: '../public/github.png' },
   { name: 'StackOverFlow', url: 'https://stackoverflow.com/users/18835623/mayura-andrew', icon: '../public/stackoverflow.svg'}
   // Add more social media links as needed
 ];

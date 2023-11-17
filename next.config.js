@@ -1,14 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
-
-// next.config.js
-module.exports = {
-    output: {
-      // This is the directory where 'next export' will write the static HTML files
-      // Make sure this directory doesn't conflict with your version control or other files
-      path: 'out',
-    },
-  }
+const nextConfig = {
+    /* config options here */
+    basePath: '/Knowlihub', // Replace with your GitHub repository name
+    assetPrefix: '/Knowlihub/', // Replace with your GitHub repository name
   
+    // Other configurations...
+  
+    // For GitHub Pages, you might want to set trailingSlash to true
+    trailingSlash: true,
+  
+  
+  }
+   
+module.exports = nextConfig

@@ -21,17 +21,6 @@ const LandingPage = () => {
     <div className="landing-container">
       <Image src={Logo} alt="Knowlihub Logo" className="logo" width={500} height={500} />
       <h1>Coming Soon ...🚀</h1>
-      <header>
-      <nav>
-        <div className="social-links">
-          {socialMediaLinks.map((link) => (
-            <a key={link.name} href={link.url} target="_blank" rel="noopener noreferrer">
-              <Image src={`${link.icon}`} alt={link.name} width={20} height={20} />
-            </a>
-          ))}
-        </div>
-      </nav>
-    </header>
     </div>
   );
 };

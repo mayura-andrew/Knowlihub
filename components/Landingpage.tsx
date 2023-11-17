@@ -26,7 +26,7 @@ const LandingPage = () => {
         <div className="social-links">
           {socialMediaLinks.map((link) => (
             <a key={link.name} href={link.url} target="_blank" rel="noopener noreferrer">
-              <Image src={`/${link.icon}`} alt={link.name} width={20} height={20} />
+              <Image src={`${link.icon}`} alt={link.name} width={20} height={20} />
             </a>
           ))}
         </div>

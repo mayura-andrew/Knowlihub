@@ -11,7 +11,8 @@ const nextConfig = {
     // For GitHub Pages, you might want to set trailingSlash to true
     trailingSlash: true,
     images: {
-        unoptimized: true,
+        
+        unoptimized: false,
     },
   
   }

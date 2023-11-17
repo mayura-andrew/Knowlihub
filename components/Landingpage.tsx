@@ -4,12 +4,16 @@ import React from 'react';
 import '../styles/LandingPage.css'; // Add styling for the landing page
 import Image from 'next/image';
 import Logo from '../public/logo2.png'
+import Github from '../public/github.svg'
+import LinkedIn from '../public/linkedin.svg'
+import Website from '../public/web.svg'
+import Stack from '../public/stackoverflow.svg'
 
 const socialMediaLinks = [
-  { name: 'Website', url: 'https://mayuraandrew.tech/whoami', icon: '../public/web.svg' },
-  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mayura-alahakoon-827381201/', icon: 'https://raw.githubusercontent.com/mayura-andrew/Knowlihub/2156f0c5103326b5fa3b966399fe5aa296df62ff/public/images/linkedin.svg' },
-  { name: 'GitHub', url: 'https://github.com/mayura-andrew', icon: '../public/github.png' },
-  { name: 'StackOverFlow', url: 'https://stackoverflow.com/users/18835623/mayura-andrew', icon: '../public/stackoverflow.svg'}
+  { name: 'Website', url: 'https://mayuraandrew.tech/whoami', icon: {Website} },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mayura-alahakoon-827381201/', icon: {LinkedIn}},
+  { name: 'GitHub', url: 'https://github.com/mayura-andrew', icon: {Github}},
+  { name: 'StackOverFlow', url: 'https://stackoverflow.com/users/18835623/mayura-andrew', icon: {Stack}}
   // Add more social media links as needed
 ];
 const LandingPage = () => {

@@ -37,8 +37,11 @@ body {
   }
 
   h1 {
-    font-size: 2rem; /* Adjust the font size for smaller screens */
-    margin-bottom: 8px; /* Adjust the bottom margin for smaller screens */
+    font-size: 2rem;
+    margin-bottom: 8px;
+    background: linear-gradient(45deg, #ff8a00, #e52e71); /* Adjust color codes as needed */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   p {
